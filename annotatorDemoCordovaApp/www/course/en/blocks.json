@@ -1,0 +1,454 @@
+[
+    {
+        "_id": "f049b178be01431c3455180e472fe405",
+        "_parentId": "a-01",
+        "_icon": "fa-question-circle",
+        "_type": "block",
+        "_cleoBlockType": "graphic",
+        "_classes": "",
+        "title": "ATA 29",
+        "displayTitle": "ATA 29",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "d1d29db74f32290a63d4f18b35522a72",
+        "_parentId": "a-01",
+        "_icon": "fa-question-circle",
+        "_type": "block",
+        "_cleoBlockType": "text+narrative",
+        "_classes": "",
+        "title": "Overview",
+        "displayTitle": "Overview",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "bd283dd84e5d080a7cdb3ed1d853fe7d",
+        "_parentId": "a-01",
+        "_icon": "fa-mortar-board",
+        "_type": "block",
+        "_cleoBlockType": "text+text",
+        "_classes": "",
+        "title": "Blank Title d4edf79f90e405",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "82aaadd8131dead15bf2c1a108aac6d1",
+        "_parentId": "a-01",
+        "_icon": "fa-institution",
+        "_type": "block",
+        "_cleoBlockType": "responsiveIframe",
+        "_classes": "",
+        "title": "(ILT) Hydraulic Systems No. 1, No. 2, and No. 3",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "d00893e46404dcdbb871f91627b9c53f",
+        "_parentId": "a-01",
+        "_icon": "fa-plane",
+        "_type": "block",
+        "_cleoBlockType": "text+graphic",
+        "_classes": "",
+        "title": "Hydraulic System Location",
+        "displayTitle": "Hydraulic System Location",
+        "body": "",
+        "_trackingId": "",
+        "_blockAutoPlay": {
+            "_isEnabled": true,
+            "_showAudio": true,
+            "_audioSrc": "course/en/audio/d00893e46404dcdbb871f91627b9c53f.mp3"
+        },
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "2ed37ca51223284ffd8ab5c0a03b5908",
+        "_parentId": "a-01",
+        "_icon": "fa-plane",
+        "_type": "block",
+        "_cleoBlockType": "text+text",
+        "_classes": "",
+        "title": "Hydraulic Systems No. 1 and No. 2",
+        "displayTitle": "Hydraulic Systems No. 1 and No. 2",
+        "body": "",
+        "_trackingId": "",
+        "_blockAutoPlay": {
+            "_isEnabled": true,
+            "_showAudio": true,
+            "_audioSrc": "course/en/audio/2ed37ca51223284ffd8ab5c0a03b5908.mp3"
+        },
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "08c3a9e4c8faea44f51349a9636c1a0d",
+        "_parentId": "a-01",
+        "_icon": "fa-question-circle",
+        "_type": "block",
+        "_cleoBlockType": "text+labelGenerator",
+        "_classes": "",
+        "title": "Component Description",
+        "displayTitle": "Component Description",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "657d99b6fdfa0f657ba919c717c77802",
+        "_parentId": "a-01",
+        "_icon": "fa-train",
+        "_type": "block",
+        "_cleoBlockType": "text+narrative",
+        "_classes": "",
+        "title": "(ILT) Component Description (2 of 6)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "16ca3cdb6760a27ef0fe80507a747dd9",
+        "_parentId": "a-01",
+        "_icon": "fa-rocket",
+        "_type": "block",
+        "_cleoBlockType": "text+labelGenerator",
+        "_classes": "",
+        "title": "(ILT) Component Description (3 of 6)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "0224043905e4f3dbfc226b2f9a52f882",
+        "_parentId": "a-01",
+        "_icon": "fa-space-shuttle",
+        "_type": "block",
+        "_cleoBlockType": "text+graphic",
+        "_classes": "",
+        "title": "(ILT) Component Description (4 of 6)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "e7c301e65b6622c59b1652245d3e9979",
+        "_parentId": "a-01",
+        "_icon": "fa-rocket",
+        "_type": "block",
+        "_cleoBlockType": "text+graphic",
+        "_classes": "",
+        "title": "(ILT) Component Description (5 of 6)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "a4f555d6fd40df35069e6368ca0b5dbb",
+        "_parentId": "a-01",
+        "_icon": "fa-question-circle",
+        "_type": "block",
+        "_cleoBlockType": "graphic+accordionWMedia",
+        "_classes": "",
+        "title": "(ILT) Component Description (6 of 6)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "4ce33d4e12e82616bee206b9ed9a4e4d",
+        "_parentId": "a-01",
+        "_icon": "fa-rocket",
+        "_type": "block",
+        "_cleoBlockType": "text",
+        "_classes": "",
+        "title": "Hydraulic System No. 3",
+        "displayTitle": "Hydraulic System No. 3",
+        "body": "",
+        "_trackingId": "",
+        "_blockAutoPlay": {
+            "_isEnabled": true,
+            "_showAudio": true,
+            "_audioSrc": "course/en/audio/4ce33d4e12e82616bee206b9ed9a4e4d.mp3"
+        },
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "b440e509581973a2c1e5d5872a7ffac6",
+        "_parentId": "a-01",
+        "_icon": "fa-space-shuttle",
+        "_type": "block",
+        "_cleoBlockType": "text+labelGenerator",
+        "_classes": "",
+        "title": "Component Description",
+        "displayTitle": "Component Description",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "cc88608dcf40feb5e7bff9aa89d9c83b",
+        "_parentId": "a-01",
+        "_icon": "fa-question-circle",
+        "_type": "block",
+        "_cleoBlockType": "text+narrative",
+        "_classes": "",
+        "title": "(ILT) Component Description (2 of 4)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "b2db66f0c933d4c2eaf77ecf6658e7b3",
+        "_parentId": "a-01",
+        "_icon": "fa-subway",
+        "_type": "block",
+        "_cleoBlockType": "text+graphic",
+        "_classes": "",
+        "title": "(ILT) Component Description (3 of 4)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "9edd4cf8c72dc867f65ddb5db1c8c40b",
+        "_parentId": "a-01",
+        "_icon": "fa-rocket",
+        "_type": "block",
+        "_cleoBlockType": "graphic+accordionWMedia",
+        "_classes": "",
+        "title": "(ILT) Component Description (4 of 4)",
+        "displayTitle": "Linked",
+        "body": "",
+        "_trackingId": "",
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": true
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    },
+    {
+        "_id": "23a12ed2496b271611486ee367fff765",
+        "_parentId": "a-01",
+        "_icon": "fa-plane",
+        "_type": "block",
+        "_cleoBlockType": "text+graphic",
+        "_classes": "",
+        "title": "Operation",
+        "displayTitle": "Operation",
+        "body": "",
+        "_trackingId": "",
+        "_blockAutoPlay": {
+            "_isEnabled": true,
+            "_showAudio": true,
+            "_audioSrc": "course/en/audio/23a12ed2496b271611486ee367fff765.mp3"
+        },
+        "_progressTracking": {
+            "_isEnabled": true,
+            "_blockIcon": {
+                "type": "additional",
+                "isInteractive": false
+            },
+            "tooltip": {
+                "linkText": "linkText",
+                "description": "description",
+                "src": "#"
+            }
+        }
+    }
+]

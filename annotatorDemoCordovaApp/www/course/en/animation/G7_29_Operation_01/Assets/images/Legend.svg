@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 401.516 363.165" style="enable-background:new 0 0 401.516 363.165;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+@font-face{font-family:'Arial'}
+]]>
+
+</style>
+<g id="Legend">
+	<path style="fill:#EFF3F3;stroke:#102A3E;" d="M393.016,362.665H8.5c-4.418,0-8-3.582-8-8V8.502C0.5,4.083,4.083,0.5,8.502,0.5
+		h384.514c4.418,0,8,3.582,8,8v346.165C401.016,359.083,397.434,362.665,393.016,362.665z"/>
+	<line style="fill:none;stroke:#102A3E;" x1="11.351" y1="31.646" x2="284.991" y2="31.646"/>
+	<g>
+		<text transform="matrix(1 0 0 1 80.3961 83.3524)"><tspan x="0" y="0" style="font-family:'Arial'; font-size:16px;">AC Motor Pump</tspan><tspan x="0" y="24" style="font-family:'Arial'; font-size:16px;">Aircraft Health Monitoring Unit</tspan><tspan x="0" y="48" style="font-family:'Arial'; font-size:16px;">Data Concentrator Unit Module Cabinet</tspan><tspan x="0" y="72" style="font-family:'Arial'; font-size:16px;">Electrical Data Management Unit</tspan><tspan x="0" y="96" style="font-family:'Arial'; font-size:16px;">Engine Indication and Crew Alerting System</tspan><tspan x="0" y="120" style="font-family:'Arial'; font-size:16px;">Electrical Power Center</tspan><tspan x="0" y="144" style="font-family:'Arial'; font-size:16px;">Integrated Processing Cabinet</tspan><tspan x="0" y="168" style="font-family:'Arial'; font-size:16px;">Onboard Maintenance System</tspan><tspan x="0" y="192" style="font-family:'Arial'; font-size:16px;">Power Transfer Unit</tspan><tspan x="0" y="216" style="font-family:'Arial'; font-size:16px;">Ram Air Turbine</tspan><tspan x="0" y="240" style="font-family:'Arial'; font-size:16px;">Secondary Power Distribution Assembly</tspan><tspan x="0" y="264" style="font-family:'Arial'; font-size:16px;">Synoptic Page</tspan></text>
+		<text transform="matrix(1 0 0 1 13.1398 83.3524)"><tspan x="0" y="0" style="font-family:'Arial'; font-size:16px;">ACMP</tspan><tspan x="-0.883" y="24" style="font-family:'Arial'; font-size:16px;">AHMU</tspan><tspan x="9.789" y="48" style="font-family:'Arial'; font-size:16px;">DMC</tspan><tspan x="-0.883" y="72" style="font-family:'Arial'; font-size:16px;">EDMU</tspan><tspan x="-1.789" y="96" style="font-family:'Arial'; font-size:16px;">EICAS</tspan><tspan x="13.328" y="120" style="font-family:'Arial'; font-size:16px;">EPC</tspan><tspan x="19.555" y="144" style="font-family:'Arial'; font-size:16px;">IPC</tspan><tspan x="9.781" y="168" style="font-family:'Arial'; font-size:16px;">OMS</tspan><tspan x="14.227" y="192" style="font-family:'Arial'; font-size:16px;">PTU</tspan><tspan x="14.227" y="216" style="font-family:'Arial'; font-size:16px;">RAT</tspan><tspan x="2.656" y="240" style="font-family:'Arial'; font-size:16px;">SPDA</tspan><tspan x="13.328" y="264" style="font-family:'Arial'; font-size:16px;">SYN</tspan></text>
+		<rect x="19.521" y="46.634" style="fill:#FEBF4E;stroke:#000000;" width="39.08" height="12"/>
+		<text transform="matrix(1 0 0 1 80.6556 58.5929)" style="font-family:'Arial'; font-size:16px;">System No. 3</text>
+	</g>
+	<text transform="matrix(1 0 0 1 11.3506 22.6818)" style="font-family:'Arial'; font-weight:bold; font-size:16px;">LEGEND</text>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

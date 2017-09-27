@@ -1,0 +1,1201 @@
+[
+    {
+        "_id": "5914b45ac1ac6f60b005bb89",
+        "_parentId": "f049b178be01431c3455180e472fe405",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "full",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/Global7000.jpg",
+            "medium": "course/en/images/Global7000.jpg",
+            "small": "course/en/images/Global7000.jpg"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e3e6565caab273200fd2f1",
+        "_parentId": "d1d29db74f32290a63d4f18b35522a72",
+        "_type": "component",
+        "_classes": "",
+        "_component": "narrative",
+        "_isPartOfVerticalBlockSlider": false,
+        "_layout": "full",
+        "body": "",
+        "title": "Title Not Found",
+        "instruction": "",
+        "displayTitle": "",
+        "_graphic": {},
+        "_items": [
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_HydSysOver_01_A.png"
+                },
+                "title": "Hydraulic Users",
+                "body": "The hydraulic&nbsp;power supplies pressure to&nbsp;primary&nbsp;flight controls, multifunction spoilers, ground spoilers, landing gear, nosewheel steering, thrust reversers, and brakes.<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​</span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_HydSysOver_01_B.png"
+                },
+                "title": "Hydraulic Users​",
+                "body": "The hydraulic power supplies pressure to primary flight controls, multifunction spoilers, ground spoilers, landing gear, nosewheel steering, thrust reversers, and brakes.<span class=\"redactor-invisible-space\">​</span><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_HydSysOver_01_C.png"
+                },
+                "title": "Hydraulic Users​",
+                "body": "The hydraulic power supplies pressure to primary flight controls, multifunction spoilers, ground spoilers, landing gear, nosewheel steering, thrust reversers, and brakes.<span class=\"redactor-invisible-space\">​</span><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_HydSysOver_01_D.png"
+                },
+                "title": "Hydraulic Users​​",
+                "body": "The hydraulic power supplies pressure to primary flight controls, multifunction spoilers, ground spoilers, landing gear, nosewheel steering, thrust reversers, and brakes.<span class=\"redactor-invisible-space\">​</span><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            }
+        ],
+        "_feedback": {
+            "correct": "Correct",
+            "_incorrect": {
+                "notFinal": "Incorrect, try again",
+                "final": "Incorrect"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Partially correct, try again",
+                "final": "Partially correct"
+            },
+            "_default": {
+                "title": "asdf",
+                "body": "asdfsdf"
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": "Select here to submit  your answer."
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "bd283dd84e5d080a7cdb3ed1d853fe7d_text_left",
+        "_parentId": "bd283dd84e5d080a7cdb3ed1d853fe7d",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "The hydraulic power consists of three hydraulic systems. All three systems operate at 3000 psi, using a phosphate ester type IV low-density fluid. All three systems are pressurized throughout normal aircraft operations.<br><br>Each hydraulic system uses a bootstrap reservoir for hydraulic fluid storage. A bootstrap reservoir uses system pressure to drive an internal piston to maintain positive pressure. This pressure provides a positive feed to the pumps in all aircraft altitudes and attitudes.<br><br>Each system has a primary A-pump and a backup B-pump. Hydraulic system no. 1 has an engine-driven pump (EDP) 1A, and an alternating current motor pump (ACMP) 1B. Hydraulic system no. 2 is pressurized with an engine-driven pump (EDP) 2A, and a power transfer unit (PTU). ACMPs 3A and 3B pressurize hydraulic system no. 3. <br><br>The EDPs operate when their respective engine is running. The ACMP 3A operates continuously when its switch is selected ON. B-pumps with the switches in AUTO positions, operate automatically in critical flight phases, or in the event of A-pump failure.<br><br>Hydraulic fluid in each system is sent to a filter manifold to remove contaminants.<br><br>A priority valve in each system protects the flight control portion of the system from pressure drops caused by high flow demands from the landing gear, or the PTU.<br> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "bd283dd84e5d080a7cdb3ed1d853fe7d_text_right",
+        "_parentId": "bd283dd84e5d080a7cdb3ed1d853fe7d",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "right",
+        "body": "To reduce electrical load from the AC motor at startup, a damped opening valve in hydraulic systems no. 1 and no. 3 stops the flow of hydraulic fluid from the pumps to system users until pressure has built up. The result is less startup load on the pump and AC motor, while greatly reducing the possibility of pump cavitation.<br><br>In the event of electrical power loss, a ram air turbine (RAT) deploys. The RAT drives an independent hydraulic pump for hydraulic system no. 3. Two accumulators supply hydraulic pressure to system users during RAT deployment. A bootstrap accumulator maintains pressure in the reservoir to ensure a positive suction flow to the RAT hydraulic pump during an in-flight RAT deployment.<span class=\"redactor-invisible-space\"><br><br></span>Two accumulators, in hydraulic systems no. 2 and no. 3, supply hydraulic pressure for parking brake and emergency braking.<br><br>Hydraulic fluid is monitored for temperature indication and control. In case of hydraulic fluid overheat or engine fire, a firewall hydraulic shutoff valve (SOV) in hydraulic systems no. 1 and no. 2 stops the hydraulic flow to the EDPs.<br><br>Pressure switches and transducers on the filter manifolds monitor pump and system pressure to control pump operation<span class=\"redactor-invisible-space\"> and</span> to display pressure information to the flight crew.<br><br>The quantity of hydraulic fluid stored in the reservoir is measured and shown by the combination of a quantity transducer and a visual quantity indicator. ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e29a875caab209220fd2f2",
+        "_parentId": "82aaadd8131dead15bf2c1a108aac6d1",
+        "_type": "component",
+        "_classes": "",
+        "_component": "responsiveIframe",
+        "_layout": "full",
+        "_width": {
+            "_small": 520,
+            "_medium": 964,
+            "_large": 1200
+        },
+        "_height": {
+            "_small": 238,
+            "_medium": 442,
+            "_large": 550
+        },
+        "_source": "course/en/animation/G7_29_Overview_01/Assets/G7_29_Overview_01.html",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "d7d0183f947c43171c5254b36366bd25_text_full",
+        "_parentId": "d7d0183f947c43171c5254b36366bd25",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "full",
+        "body": "<strong data-redactor-tag=\"strong\" data-verified=\"redactor\">HYDRAULIC Control&nbsp;Panel</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\"> </strong></span><br>​The hydraulic system is controlled from the HYDRAULIC control panel, located on the flight deck overhead panel. The panel consists of switches to control the operation of the ACMPs and the PTU. It also contains pushbutton annunciators (PBAs) to close the firewall hydraulic shutoff valves.<br><strong data-redactor-tag=\"strong\" data-verified=\"redactor\"> <br>HYD Synoptic Page</strong><br>The hydraulic synoptic page shows reservoir fluid quantity and temperature, system pressure, and brake pressure, as well as the status of pumps, valves, and users for the three hydraulic systems. Fluid quantities, pressures, and temperatures are represented digitally. Different colors indicate&nbsp;status of quantity, flow, pump, engine, and users.<br>​<br> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58f4a8265caab25e0ce99703",
+        "_parentId": "d7d0183f947c43171c5254b36366bd25",
+        "_type": "component",
+        "_classes": "",
+        "_component": "responsiveIframe",
+        "_layout": "full",
+        "_width": {
+            "_small": 520,
+            "_medium": 964,
+            "_large": 1200
+        },
+        "_height": {
+            "_small": 238,
+            "_medium": 442,
+            "_large": 550
+        },
+        "_source": "course/en/animation/G7_29_ConIndication_01/Assets/G7_29_ConIndication_01.html",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "d00893e46404dcdbb871f91627b9c53f_text_full",
+        "_parentId": "d00893e46404dcdbb871f91627b9c53f",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "full",
+        "body": "Most components of hydraulic system no. 1 and no. 2 are located in the rear equipment bay. Hydraulic system no. 1 components are on the left side, and system no. 2 are on the right. They can be accessed through the rear equipment bay access door.<br><br>​Hydraulic system no. 3 components are primarily&nbsp;located forward of the wing, inside the wing-to-belly fairing (WTBF). Components can be accessed by opening the hydraulic system no. 3 access door located at the wing root area or by removing a belly access panel.<br><br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><br></span> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58fe419dc1ac6fab86d151eb",
+        "_parentId": "d00893e46404dcdbb871f91627b9c53f",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "full",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_HydSysLocation_01.png",
+            "medium": "course/en/images/G7_29_HydSysLocation_01.png",
+            "small": "course/en/images/G7_29_HydSysLocation_01.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "2ed37ca51223284ffd8ab5c0a03b5908_text_left",
+        "_parentId": "2ed37ca51223284ffd8ab5c0a03b5908",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "Hydraulic system no. 1 consists of the following components:<br><ul><li>Reservoir</li><li>Firewall hydraulic shutoff valve (SOV)</li><li>Engine-driven pump (EDP) 1A</li><li>AC motor pump (ACMP) 1B</li><li>Filter manifold</li><li>Damped opening valve</li><li>Priority valve</li><li>PTU select valve</li><li>Heat exchanger and bypass valve</li><li>Ecology bottle</li><li>Ground service quick-disconnects</li></ul> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "2ed37ca51223284ffd8ab5c0a03b5908_text_right",
+        "_parentId": "2ed37ca51223284ffd8ab5c0a03b5908",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "right",
+        "body": "Hydraulic system no. 2 consists of the following components:<br><ul><li>Reservoir</li><li>Firewall hydraulic shutoff valve (SOV)</li><li>Engine-driven pump (EDP) 2A</li><li>Power transfer unit (PTU)</li><li>Filter manifold</li><li>Priority valve</li><li>Heat exchanger and bypass valve</li><li>Inboard brake accumulator</li><li>Ecology bottle</li><li>Ground service quick-disconnects</li></ul> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ee59795caab28959b92914",
+        "_parentId": "08c3a9e4c8faea44f51349a9636c1a0d",
+        "_type": "component",
+        "_classes": "sp",
+        "_component": "labelGenerator",
+        "_layout": "full",
+        "instruction": "",
+        "title": "Title Not Found",
+        "displayTitle": "",
+        "_showPopupText": "Show All",
+        "_hidePopupText": "Hide All",
+        "_isHighlightEnable": true,
+        "_graphic": {
+            "alt": "",
+            "src": "course/en/images/G7_29_CompDescription_01.png"
+        },
+        "_items": [
+            {
+                "id": 1,
+                "title": "PTU",
+                "body": "",
+                "_graphic": {},
+                "strapline": "PTU",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 46.265396118164,
+                "_itemLeft": 46.789584960938,
+                "_popupPosition": "bottom-left",
+                "width": 100
+            },
+            {
+                "id": 2,
+                "title": "Reservoir​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Reservoir​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 20.831598154704,
+                "_itemLeft": 52.208959960937,
+                "_popupPosition": "top",
+                "width": 100
+            },
+            {
+                "id": 3,
+                "title": "ACMP 1B​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "ACMP 1B​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 60.831715901693,
+                "_itemLeft": 69.648061523437,
+                "_popupPosition": "bottom",
+                "width": 100
+            },
+            {
+                "id": 4,
+                "title": "EDP 1A",
+                "body": "",
+                "_graphic": {},
+                "strapline": "EDP 1A",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 84.06389465332,
+                "_itemLeft": 88.581602783203,
+                "_popupPosition": "bottom",
+                "width": 50
+            },
+            {
+                "id": 5,
+                "title": "Filter Manifold",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Filter Manifold",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 53.363659667969,
+                "_itemLeft": 66.930004882812,
+                "_popupPosition": "top-right",
+                "width": 200
+            },
+            {
+                "id": 6,
+                "title": "Reservoir​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Reservoir​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 26.33356628418,
+                "_itemLeft": 66.325556640625,
+                "_popupPosition": "top",
+                "width": 70
+            },
+            {
+                "id": 7,
+                "title": "EDP 2A​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "EDP 2A​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 17.34710744222,
+                "_itemLeft": 27.624167480469,
+                "_popupPosition": "top",
+                "width": 80
+            },
+            {
+                "id": 8,
+                "title": "Filter Manifold​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Filter Manifold​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 32.746645100911,
+                "_itemLeft": 46.699514160156,
+                "_popupPosition": "bottom-left",
+                "width": 200
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ee57365caab20e54b92914",
+        "_parentId": "657d99b6fdfa0f657ba919c717c77802",
+        "_type": "component",
+        "_classes": "",
+        "_component": "narrative",
+        "_isPartOfVerticalBlockSlider": false,
+        "_layout": "full",
+        "body": "",
+        "title": "Title Not Found",
+        "instruction": "",
+        "displayTitle": "",
+        "_graphic": {},
+        "_items": [
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_01_A.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoirs</strong><br>​The reservoirs are pressurized by the system pressure. <br>​​A bleed/relief valve installed on each reservoir prevents bootstrap circuit overpressurization and reservoir overfilling. ​​​For monitoring and system control, each reservoir has a temperature transducer and a temperature switch. ​​A visual quantity indicator shows the percentage of hydraulic fluid stored in the reservoir.​​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><br></span><br><strong data-redactor-tag=\"strong\">Engine-Driven Pumps</strong><br>The primary sources of pressure in hydraulic system no. 1 and no. 2 are the engine EDPs. ​​Each EDP is a variable displacement piston type pump that varies the pump output flow according to system demands.​​<br><br><strong data-redactor-tag=\"strong\">AC Motor Pump 1B​​</strong><br>The backup pump for hydraulic system no. 1 is ACMP 1B.&nbsp;It consists of a variable displacement piston type pump driven by an AC motor. ​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br><strong data-redactor-tag=\"strong\">Power Transfer Unit</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​​The backup pump for hydraulic system no. 2 is the PTU. <br>​​The PTU has a hydraulic motor and a pump. Both the motor and pump are fixed displacement piston type. The hydraulic motor is driven by hydraulic system no. 1 and drives the pump connected to hydraulic system no. 2</span>.<br><br><strong data-redactor-tag=\"strong\">Filter Manifold</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong><br>​</span>Fluid in each system is delivered to a single filter manifold for cleaning. A system pressure-relief valve, part of the filter manifold, protects the system from overpressure. The manifold also includes four differential pressure indicators (DPI) to show when the filters are clogged. ​​Two pressure switches and a pressure transducer are used to provide hydraulic control and indication.​​​​<br>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_01_B.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoirs</strong><br>​The reservoirs are pressurized by the system pressure. <br>​​A bleed/relief valve installed on each reservoir prevents bootstrap circuit overpressurization and reservoir overfilling. ​​​For monitoring and system control, each reservoir has a temperature transducer and a temperature switch. ​​A visual quantity indicator shows the percentage of hydraulic fluid stored in the reservoir.​​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><br></span><br><strong data-redactor-tag=\"strong\">Engine-Driven Pumps</strong><br>The primary sources of pressure in hydraulic system no. 1 and no. 2 are the engine EDPs. ​​Each EDP is a variable displacement piston type pump that varies the pump output flow according to system demands.​​<br><br><strong data-redactor-tag=\"strong\">AC Motor Pump 1B​​</strong><br>The backup pump for hydraulic system no. 1 is ACMP 1B. It consists of a variable displacement piston type pump driven by an AC motor. ​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br><strong data-redactor-tag=\"strong\">Power Transfer Unit</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​​The backup pump for hydraulic system no. 2 is the PTU. <br>​​The PTU has a hydraulic motor and a pump. Both the motor and pump are fixed displacement piston type. The hydraulic motor is driven by hydraulic system no. 1 and drives the pump connected to hydraulic system no. 2</span>.<br><br><strong data-redactor-tag=\"strong\">Filter Manifold</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong><br>​</span>Fluid in each system is delivered to a single filter manifold for cleaning. A system pressure-relief valve, part of the filter manifold, protects the system from overpressure. The manifold also includes four differential pressure indicators (DPI) to show when the filters are clogged. ​​Two pressure switches and a pressure transducer are used to provide hydraulic control and indication.​​​​<br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_01_C.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoirs</strong><br>​The reservoirs are pressurized by the system pressure. <br>​​A bleed/relief valve installed on each reservoir prevents bootstrap circuit overpressurization and reservoir overfilling. ​​​For monitoring and system control, each reservoir has a temperature transducer and a temperature switch. ​​A visual quantity indicator shows the percentage of hydraulic fluid stored in the reservoir.​​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><br></span><br><strong data-redactor-tag=\"strong\">Engine-Driven Pumps</strong><br>The primary sources of pressure in hydraulic system no. 1 and no. 2 are the engine EDPs. ​​Each EDP is a variable displacement piston type pump that varies the pump output flow according to system demands.​​<br><br><strong data-redactor-tag=\"strong\">AC Motor Pump 1B​​</strong><br>The backup pump for hydraulic system no. 1 is ACMP 1B. It consists of a variable displacement piston type pump driven by an AC motor. ​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br><strong data-redactor-tag=\"strong\">Power Transfer Unit</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​​The backup pump for hydraulic system no. 2 is the PTU. <br>​​The PTU has a hydraulic motor and a pump. Both the motor and pump are fixed displacement piston type. The hydraulic motor is driven by hydraulic system no. 1 and drives the pump connected to hydraulic system no. 2</span>.<br><br><strong data-redactor-tag=\"strong\">Filter Manifold</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong><br>​</span>Fluid in each system is delivered to a single filter manifold for cleaning. A system pressure-relief valve, part of the filter manifold, protects the system from overpressure. The manifold also includes four differential pressure indicators (DPI) to show when the filters are clogged. ​​Two pressure switches and a pressure transducer are used to provide hydraulic control and indication.​​​​<br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_01_D.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoirs</strong><br>​The reservoirs are pressurized by the system pressure. <br>​​A bleed/relief valve installed on each reservoir prevents bootstrap circuit overpressurization and reservoir overfilling. ​​​For monitoring and system control, each reservoir has a temperature transducer and a temperature switch. ​​A visual quantity indicator shows the percentage of hydraulic fluid stored in the reservoir.​​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><br></span><br><strong data-redactor-tag=\"strong\">Engine-Driven Pumps</strong><br>The primary sources of pressure in hydraulic system no. 1 and no. 2 are the engine EDPs. ​​Each EDP is a variable displacement piston type pump that varies the pump output flow according to system demands.​​<br><br><strong data-redactor-tag=\"strong\">AC Motor Pump 1B​​</strong><br>The backup pump for hydraulic system no. 1 is ACMP 1B. It consists of a variable displacement piston type pump driven by an AC motor. ​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br><strong data-redactor-tag=\"strong\">Power Transfer Unit</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​​The backup pump for hydraulic system no. 2 is the PTU. <br>​​The PTU has a hydraulic motor and a pump. Both the motor and pump are fixed displacement piston type. The hydraulic motor is driven by hydraulic system no. 1 and drives the pump connected to hydraulic system no. 2</span>.<br><br><strong data-redactor-tag=\"strong\">Filter Manifold</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong><br>​</span>Fluid in each system is delivered to a single filter manifold for cleaning. A system pressure-relief valve, part of the filter manifold, protects the system from overpressure. The manifold also includes four differential pressure indicators (DPI) to show when the filters are clogged. ​​Two pressure switches and a pressure transducer are used to provide hydraulic control and indication.​​​​<br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_01_E.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoirs</strong><br>​The reservoirs are pressurized by the system pressure. <br>​​A bleed/relief valve installed on each reservoir prevents bootstrap circuit overpressurization and reservoir overfilling. ​​​For monitoring and system control, each reservoir has a temperature transducer and a temperature switch. ​​A visual quantity indicator shows the percentage of hydraulic fluid stored in the reservoir.​​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><br></span><br><strong data-redactor-tag=\"strong\">Engine-Driven Pumps</strong><br>The primary sources of pressure in hydraulic system no. 1 and no. 2 are the engine EDPs. ​​Each EDP is a variable displacement piston type pump that varies the pump output flow according to system demands.​​<br><br><strong data-redactor-tag=\"strong\">AC Motor Pump 1B​​</strong><br>The backup pump for hydraulic system no. 1 is ACMP 1B. It consists of a variable displacement piston type pump driven by an AC motor. ​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br><strong data-redactor-tag=\"strong\">Power Transfer Unit</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​​The backup pump for hydraulic system no. 2 is the PTU. <br>​​The PTU has a hydraulic motor and a pump. Both the motor and pump are fixed displacement piston type. The hydraulic motor is driven by hydraulic system no. 1 and drives the pump connected to hydraulic system no. 2</span>.<br><br><strong data-redactor-tag=\"strong\">Filter Manifold</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong><br>​</span>Fluid in each system is delivered to a single filter manifold for cleaning. A system pressure-relief valve, part of the filter manifold, protects the system from overpressure. The manifold also includes four differential pressure indicators (DPI) to show when the filters are clogged. ​​Two pressure switches and a pressure transducer are used to provide hydraulic control and indication.​​​​<br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"></span>"
+            }
+        ],
+        "_feedback": {
+            "correct": "Correct",
+            "_incorrect": {
+                "notFinal": "Incorrect, try again",
+                "final": "Incorrect"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Partially correct, try again",
+                "final": "Partially correct"
+            },
+            "_default": {
+                "title": "asdf",
+                "body": "asdfsdf"
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": "Select here to submit  your answer."
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ee55715caab20b4fb92914",
+        "_parentId": "16ca3cdb6760a27ef0fe80507a747dd9",
+        "_type": "component",
+        "_classes": "sp",
+        "_component": "labelGenerator",
+        "_layout": "full",
+        "instruction": "",
+        "title": "Title Not Found",
+        "displayTitle": "",
+        "_showPopupText": "Show All",
+        "_hidePopupText": "Hide All",
+        "_isHighlightEnable": true,
+        "_graphic": {
+            "alt": "",
+            "src": "course/en/images/G7_29_CompDescription_02.png"
+        },
+        "_items": [
+            {
+                "id": 1,
+                "title": "Damped Opening Valve",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Damped Opening Valve",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 61.930442301432,
+                "_itemLeft": 68.952502441406,
+                "_popupPosition": "right",
+                "width": 100
+            },
+            {
+                "id": 2,
+                "title": "PTU Select Valve",
+                "body": "",
+                "_graphic": {},
+                "strapline": "PTU Select Valve",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 37.564817301432,
+                "_itemLeft": 62.494097900391,
+                "_popupPosition": "top-right",
+                "width": 150
+            },
+            {
+                "id": 3,
+                "title": "Ground Servicing",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Ground Servicing",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 71.09387105306,
+                "_itemLeft": 62.379587402344,
+                "_popupPosition": "bottom-left",
+                "width": 200
+            },
+            {
+                "id": 4,
+                "title": "Ecology Bottle",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Ecology Bottle",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 73.898152669271,
+                "_itemLeft": 65.429725341797,
+                "_popupPosition": "bottom-right",
+                "width": 150
+            },
+            {
+                "id": 5,
+                "title": "Heat Exchanger Bypass Valve",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Heat Exchanger Bypass Valve",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 55.2,
+                "_itemLeft": 69.9440625,
+                "_popupPosition": "top-right",
+                "width": 50
+            },
+            {
+                "id": 6,
+                "title": "Priority Valve",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Priority Valve",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 45.929862467448,
+                "_itemLeft": 69.870347900391,
+                "_popupPosition": "top-right",
+                "width": 50
+            },
+            {
+                "id": 7,
+                "title": "Ground Servicing",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Ground Servicing",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 51.497686767578,
+                "_itemLeft": 44.694584960937,
+                "_popupPosition": "left",
+                "width": 150
+            },
+            {
+                "id": 8,
+                "title": "Ecology Bottle​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Ecology Bottle​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 52.616323852539,
+                "_itemLeft": 50.827849121094,
+                "_popupPosition": "bottom-left",
+                "width": 200
+            },
+            {
+                "id": 9,
+                "title": "Heat Exchanger Bypass Valve​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Heat Exchanger Bypass Valve​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 33.487154134115,
+                "_itemLeft": 44.733752441406,
+                "_popupPosition": "top-left",
+                "width": 100
+            },
+            {
+                "id": 10,
+                "title": "Firewall Hydraulic SOV",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Firewall Hydraulic SOV",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 40.331598917643,
+                "_itemLeft": 67.025767822266,
+                "_popupPosition": "top-right",
+                "width": 100
+            },
+            {
+                "id": 11,
+                "title": "Firewall Hydraulic SOV​",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Firewall Hydraulic SOV​",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 32.532293701172,
+                "_itemLeft": 53.969168701172,
+                "_popupPosition": "top",
+                "width": 150
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "0224043905e4f3dbfc226b2f9a52f882_text_left",
+        "_parentId": "0224043905e4f3dbfc226b2f9a52f882",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Firewall Hydraulic Shutoff Valves</strong><br>In the event of fire or hydraulic system overtemperature in each system, the electrically operated firewall hydraulic SOV stops the flow of hydraulic fluid to the EDP. The firewall hydraulic SOVs are installed on the suction lines for engine-driven pumps 1A and 2A. <br><br><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Priority Valve</strong><br>A priority valve in system no. 1 ensures that hydraulic pressure is always available to the flight controls. When system pressure drops during periods of high demand, the valve closes to stop hydraulic flow to the PTU.<br><strong data-redactor-tag=\"strong\" data-verified=\"redactor\"><br>Damped Opening Valve</strong><br>To reduce electrical load from the ACMP motor at startup in hydraulic system no. 1, a damped opening valve stops the flow of hydraulic fluid from the pumps to system users until pressure has built up. The result is less startup load on the pump and motor, while greatly reducing the possibility of pump cavitations.<br><br><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">PTU Select Valve</strong><br>A PTU select valve in hydraulic system no. 1 opens when the PTU is required to operate. Pressure from hydraulic system no. 1 is routed to the motor side of the PTU.<br><br></span> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ee61835caab2096db92915",
+        "_parentId": "0224043905e4f3dbfc226b2f9a52f882",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_CompDescription_02_A.png",
+            "medium": "course/en/images/G7_29_CompDescription_02_A.png",
+            "small": "course/en/images/G7_29_CompDescription_02_A.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "e7c301e65b6622c59b1652245d3e9979_text_left",
+        "_parentId": "e7c301e65b6622c59b1652245d3e9979",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Heat Exchanger Bypass Valve</strong><br>When Hydraulic fluid in each system reaches a predetermined temperature and requires cooling, the fluid is routed to the heat exchangers in the wing fuel tanks by the heat exchanger bypass valves.<br><strong data-redactor-tag=\"strong\"><br>​Ecology Bottles</strong><span class=\"redactor-invisible-space\">​</span>​<br><span>Each system has an ecology bottle. The ecology bottles collect hydraulic leakage from the reservoir, ACMP IB, PTU, and reservoir bleed/relief valve, preventing contamination of the surrounding area.</span><span class=\"redactor-invisible-space\">​</span><br><strong data-redactor-tag=\"strong\" data-verified=\"redactor\"><br>​Ground Service Quick-Disconnects</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\"></strong></span><br>Three quick-disconnects in each system are used for hydraulic ground servicing. The ground fill quick-disconnect is used for hydraulic filling, and two other quick-disconnects are used to connect the ground hydraulic power unit.<br></span> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ee63445caab2a668b92915",
+        "_parentId": "e7c301e65b6622c59b1652245d3e9979",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_CompDescription_02_B.png",
+            "medium": "course/en/images/G7_29_CompDescription_02_B.png",
+            "small": "course/en/images/G7_29_CompDescription_02_B.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e29b205caab20d220fd2f1-graphic",
+        "_parentId": "a4f555d6fd40df35069e6368ca0b5dbb",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_CompDescription_03.png",
+            "medium": "course/en/images/G7_29_CompDescription_03.png",
+            "small": "course/en/images/G7_29_CompDescription_03.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e29b205caab20d220fd2f1",
+        "_parentId": "a4f555d6fd40df35069e6368ca0b5dbb",
+        "_type": "component",
+        "_classes": "",
+        "_component": "accordion",
+        "_isPartOfVerticalBlockSlider": false,
+        "_layout": "right",
+        "body": "",
+        "title": "Title Not Found",
+        "instruction": "",
+        "displayTitle": "",
+        "_graphic": {},
+        "_items": [
+            {
+                "id": 2,
+                "title": "Heat Exchanger",
+                "body": "When hydraulic fluid in systems no. 1 or no. 2&nbsp;reaches a predetermined temperature, the fluid is routed to the heat exchanger&nbsp;for cooling. <br>",
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_03_B.png"
+                }
+            },
+            {
+                "id": 4,
+                "title": "Brake&nbsp;Accumulator",
+                "body": "The brake&nbsp;accumulator in hydraulic systems no. 2 supplies hydraulic pressure for the parking brake and emergency braking of outboard brakes.​​<br>",
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_03_A.png"
+                }
+            },
+            {
+                "id": 6,
+                "title": "Priority Valve",
+                "body": "A priority valve in system no. 2 ensures that hydraulic pressure is always available to the flight controls. When the pressure drops during periods of high demand, the valve closes to stop hydraulic flow to the landing gear system.<br>",
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_02_C.png"
+                }
+            }
+        ],
+        "_feedback": {
+            "correct": "Correct",
+            "_incorrect": {
+                "notFinal": "Incorrect, try again",
+                "final": "Incorrect"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Partially correct, try again",
+                "final": "Partially correct"
+            },
+            "_default": {
+                "title": "asdf",
+                "body": "asdfsdf"
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": "Select here to submit  your answer."
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "4ce33d4e12e82616bee206b9ed9a4e4d_text_left",
+        "_parentId": "4ce33d4e12e82616bee206b9ed9a4e4d",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "Hydraulic system no. 3 consists of the following components:<br><ul><li>Reservoir<br></li><li>AC motor pump (ACMP)&nbsp;3A<br></li><li>ACMP 3B<br></li><li>RAT hydraulic pump<br></li><li>Filter manifold<br></li><li>Damped opening valve<br></li><li>Priority valve<br></li><li>Forward accumulator<br></li><li>Aft accumulator<br></li><li>Bootstrap accumulator<br></li><li>Outboard brake&nbsp;accumulator<br></li><li>Dump/relief valve<br></li><li>Ecology bottles<br></li><li>Ground service quick-disconnects</li></ul> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e29b465caab225220fd2f1",
+        "_parentId": "b440e509581973a2c1e5d5872a7ffac6",
+        "_type": "component",
+        "_classes": "sp",
+        "_component": "labelGenerator",
+        "_layout": "full",
+        "instruction": "",
+        "title": "Title Not Found",
+        "displayTitle": "",
+        "_showPopupText": "Show All",
+        "_hidePopupText": "Hide All",
+        "_isHighlightEnable": true,
+        "_graphic": {
+            "alt": "",
+            "src": "course/en/images/G7_29_CompDescription_04.png"
+        },
+        "_items": [
+            {
+                "id": 1,
+                "title": "Forward Accumulator",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Forward Accumulator",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 59.431251017253,
+                "_itemLeft": 20.309236755371,
+                "_popupPosition": "bottom",
+                "width": 100
+            },
+            {
+                "id": 2,
+                "title": "Bootstrap Accumulator",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Bootstrap Accumulator",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 31.729862467448,
+                "_itemLeft": 46.237292480469,
+                "_popupPosition": "top-left",
+                "width": 100
+            },
+            {
+                "id": 3,
+                "title": "Dump/Relief Valve",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Dump/Relief Valve",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 28.464700317383,
+                "_itemLeft": 52.08611328125,
+                "_popupPosition": "top-left",
+                "width": 200
+            },
+            {
+                "id": 4,
+                "title": "Ecology Bottles",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Ecology Bottles",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 82.998153177897,
+                "_itemLeft": 51.394376220703,
+                "_popupPosition": "bottom",
+                "width": 70
+            },
+            {
+                "id": 5,
+                "title": "Reservoir",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Reservoir",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 51.663196818034,
+                "_itemLeft": 67.361671142578,
+                "_popupPosition": "right",
+                "width": 100
+            },
+            {
+                "id": 6,
+                "title": "Damped Opening Valve",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Damped Opening Valve",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 34.264701334635,
+                "_itemLeft": 61.342781982422,
+                "_popupPosition": "top-right",
+                "width": 150
+            },
+            {
+                "id": 7,
+                "title": "Ground Servicing",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Ground Servicing",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 26.798264567057,
+                "_itemLeft": 54.641806640625,
+                "_popupPosition": "top",
+                "width": 100
+            },
+            {
+                "id": 8,
+                "title": "ACMP 3A",
+                "body": "",
+                "_graphic": {},
+                "strapline": "ACMP 3A",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 64.49757232666,
+                "_itemLeft": 54.062016601563,
+                "_popupPosition": "bottom-right",
+                "width": 200
+            },
+            {
+                "id": 9,
+                "title": "Filter Manifold",
+                "body": "",
+                "_graphic": {},
+                "strapline": "Filter Manifold",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 39.297223917643,
+                "_itemLeft": 59.200833740234,
+                "_popupPosition": "right",
+                "width": 200
+            },
+            {
+                "id": 10,
+                "title": "ACMP 3B",
+                "body": "",
+                "_graphic": {},
+                "strapline": "ACMP 3B",
+                "_hasExtraDescription": false,
+                "_similarItemId": [],
+                "_itemTop": 71.362157694499,
+                "_itemLeft": 38.191251220703,
+                "_popupPosition": "bottom-left",
+                "width": 200
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58efbcb65caab2e36bb92914",
+        "_parentId": "cc88608dcf40feb5e7bff9aa89d9c83b",
+        "_type": "component",
+        "_classes": "",
+        "_component": "narrative",
+        "_isPartOfVerticalBlockSlider": false,
+        "_layout": "full",
+        "body": "",
+        "title": "Title Not Found",
+        "instruction": "",
+        "displayTitle": "",
+        "_graphic": {},
+        "_items": [
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_05_A.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Reservoir</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">​</strong></span><br>​The hydraulic system no. 3 reservoir is similar to the other reservoirs, except it has no temperature switch or&nbsp;thermal fuse.​​<br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><strong data-redactor-tag=\"strong\">AC Motor Pumps 3A and 3B</strong><br>ACMP 3A is the primary source and ACMP 3B is the secondary source of pressure in hydraulic system no. 3.&nbsp;ACMP 3A and 3B are similar to ACMP 1B in hydraulic system no. 1.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><strong data-redactor-tag=\"strong\"><br>​Filter Manifold</strong><br>Fluid in hydraulic system no. 3 is delivered to a filter manifold to be cleaned similar to those in hydraulic systems no. 1 and no. 2.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br></span></span><strong data-redactor-tag=\"strong\">Forward Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​During RAT deployment, forward accumulator along with aft accumulator, supply hydraulic pressure to flight controls, until the RAT hydraulic pump can support the system.<br><br><strong data-redactor-tag=\"strong\">Bootstrap Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>A bootstrap accumulator maintains positive pressure in the reservoir and pump inlets. ​​This bootstrap pressure ensures positive suction flow to the RAT hydraulic pump during an in-flight RAT deployment.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​</span><br></span>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_05_B.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoir</strong><span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\"><strong data-redactor-tag=\"strong\">​</strong></span><br>The hydraulic system no. 3 reservoir is similar to the other reservoirs, except it has no temperature switch or thermal fuse.<br><span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><strong data-redactor-tag=\"strong\">AC Motor Pumps 3A and 3B</strong><br>ACMP 3A is the primary source and ACMP 3B is the secondary source of pressure in hydraulic system no. 3.&nbsp;ACMP 3A and 3B are similar to ACMP 1B in hydraulic system no. 1.​<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><strong data-redactor-tag=\"strong\"><br>​Filter Manifold</strong><br>Fluid in hydraulic system no. 3 is delivered to a filter manifold to be cleaned similar to those in hydraulic systems no. 1 and no. 2.​<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><br></span></span></span><strong data-redactor-tag=\"strong\">Forward Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​During RAT deployment, forward accumulator along with aft accumulator, supply hydraulic pressure to flight controls, until the RAT hydraulic pump can support the system.<br><br><strong data-redactor-tag=\"strong\">Bootstrap Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>A bootstrap accumulator maintains positive pressure in the reservoir and pump inlets. ​​This bootstrap pressure ensures positive suction flow to the RAT hydraulic pump during an in-flight RAT deployment.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​</span><br>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_05_C.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoir</strong><span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\"><strong data-redactor-tag=\"strong\">​</strong></span><br>The hydraulic system no. 3 reservoir is similar to the other reservoirs, except it has no temperature switch or thermal fuse.<br><span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><strong data-redactor-tag=\"strong\">AC Motor Pumps 3A and 3B</strong><br>ACMP 3A is the primary source and ACMP 3B is the secondary source of pressure in hydraulic system no. 3.&nbsp;ACMP 3A and 3B are similar to ACMP 1B in hydraulic system no. 1.​<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><strong data-redactor-tag=\"strong\"><br>​Filter Manifold</strong><br>Fluid in hydraulic system no. 3 is delivered to a filter manifold to be cleaned similar to those in hydraulic systems no. 1 and no. 2.​<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><br></span></span></span><strong data-redactor-tag=\"strong\">Forward Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​During RAT deployment, forward accumulator along with aft accumulator, supply hydraulic pressure to flight controls, until the RAT hydraulic pump can support the system.<br><br><strong data-redactor-tag=\"strong\">Bootstrap Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>A bootstrap accumulator maintains positive pressure in the reservoir and pump inlets. ​​This bootstrap pressure ensures positive suction flow to the RAT hydraulic pump during an in-flight RAT deployment.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​</span><br>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_05_D.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoir</strong><span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\"><strong data-redactor-tag=\"strong\">​</strong></span><br>The hydraulic system no. 3 reservoir is similar to the other reservoirs, except it has no temperature switch or thermal fuse.<br><span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><strong data-redactor-tag=\"strong\">AC Motor Pumps 3A and 3B</strong><br>ACMP 3A is the primary source and ACMP 3B is the secondary source of pressure in hydraulic system no. 3.&nbsp;ACMP 3A and 3B are similar to ACMP 1B in hydraulic system no. 1.​<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><strong data-redactor-tag=\"strong\"><br>​Filter Manifold</strong><br>Fluid in hydraulic system no. 3 is delivered to a filter manifold to be cleaned similar to those in hydraulic systems no. 1 and no. 2.​<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><br><strong data-redactor-tag=\"strong\"></strong></span></span><strong data-redactor-tag=\"strong\">Forward Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​During RAT deployment, forward accumulator along with aft accumulator, supply hydraulic pressure to flight controls, until the RAT hydraulic pump can support the system.<br><br><strong data-redactor-tag=\"strong\">Bootstrap Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>A bootstrap accumulator maintains positive pressure in the reservoir and pump inlets. ​​This bootstrap pressure ensures positive suction flow to the RAT hydraulic pump during an in-flight RAT deployment.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​</span></span><br>"
+            },
+            {
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_05_E.png"
+                },
+                "title": "",
+                "body": "<strong data-redactor-tag=\"strong\">Reservoir</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>The hydraulic system no. 3 reservoir is similar to the other reservoirs, except it has no temperature switch or thermal fuse.<br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><strong data-redactor-tag=\"strong\">AC Motor Pumps 3A and 3B</strong><br>ACMP 3A is the primary source and ACMP 3B is the secondary source of pressure in hydraulic system no. 3. ACMP 3A and 3B are similar to ACMP 1B in hydraulic system no. 1.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><strong data-redactor-tag=\"strong\"><br>​Filter Manifold</strong><br>Fluid in hydraulic system no. 3 is delivered to a filter manifold to be cleaned similar to those in hydraulic systems no. 1 and no. 2.​<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​<br><br><strong data-redactor-tag=\"strong\"></strong></span></span><strong data-redactor-tag=\"strong\">Forward Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>​During RAT deployment, forward accumulator along with aft accumulator, supply hydraulic pressure to flight controls, until the RAT hydraulic pump can support the system.<br><br><strong data-redactor-tag=\"strong\">Bootstrap Accumulator</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\">​</strong></span><br>A bootstrap accumulator maintains positive pressure in the reservoir and pump inlets. ​​This bootstrap pressure ensures positive suction flow to the RAT hydraulic pump during an in-flight RAT deployment.​</span>"
+            }
+        ],
+        "_feedback": {
+            "correct": "Correct",
+            "_incorrect": {
+                "notFinal": "Incorrect, try again",
+                "final": "Incorrect"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Partially correct, try again",
+                "final": "Partially correct"
+            },
+            "_default": {
+                "title": "asdf",
+                "body": "asdfsdf"
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": "Select here to submit  your answer."
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "b2db66f0c933d4c2eaf77ecf6658e7b3_text_left",
+        "_parentId": "b2db66f0c933d4c2eaf77ecf6658e7b3",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Damped Opening Valve</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">​</strong></span><br>When system pressure is low in hydraulic system no. 3, a damped opening valve, identical to the one in hydraulic system no. 1, stops hydraulic flow to the users.​<br></span><br></span><strong data-redactor-tag=\"strong\" data-verified=\"redactor\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Dump Relief valve</strong></strong><br>A dump/relief valve, located inline with the bootstrap accumulator, prevents overpressure of the bootstrap circuit. A pushbutton on the dump/relief valve is used by maintenance to dump accumulator pressure.<br><br></span><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Ecology Bottles</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">​</strong></span><br>Hydraulic system no. 3 has two ecology bottles, smaller than those used in hydraulic system no. 1 and no. 2. They collect hydraulic leakage from the reservoir, reservoir bleed/relief valve, and both ACMPs. This prevents contamination of the surrounding area.<br><br><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Ground Service Quick-Disconnects</strong><br>Three quick-disconnects, similar to those in the other systems, are used for hydraulic ground servicing.​</span><br> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ee69095caab2727db92915",
+        "_parentId": "b2db66f0c933d4c2eaf77ecf6658e7b3",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_CompDescription_06.png",
+            "medium": "course/en/images/G7_29_CompDescription_06.png",
+            "small": "course/en/images/G7_29_CompDescription_06.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e29b505caab250240fd2f1-graphic",
+        "_parentId": "9edd4cf8c72dc867f65ddb5db1c8c40b",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_Sys3ComponentLoca_01.png",
+            "medium": "course/en/images/G7_29_Sys3ComponentLoca_01.png",
+            "small": "course/en/images/G7_29_Sys3ComponentLoca_01.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58e29b505caab250240fd2f1",
+        "_parentId": "9edd4cf8c72dc867f65ddb5db1c8c40b",
+        "_type": "component",
+        "_classes": "",
+        "_component": "accordion",
+        "_isPartOfVerticalBlockSlider": false,
+        "_layout": "right",
+        "body": "",
+        "title": "Title Not Found",
+        "instruction": "",
+        "displayTitle": "",
+        "_graphic": {},
+        "_items": [
+            {
+                "id": 2,
+                "title": "RAT Hydraulic Pump​",
+                "body": "The ram air turbine (RAT) hydraulic pump is an additional source to pressurize hydraulic system no. 3, when the RAT is deployed. The RAT hydraulic pump is a variable displacement piston type pump.<br>",
+                "_graphic": {
+                    "src": "course/en/images/G7_29_Sys3ComponentLoca_01_A.png"
+                }
+            },
+            {
+                "id": 4,
+                "title": "Brake and Aft&nbsp;Accumulators​",
+                "body": "A brake accumulator in hydraulic system no. 3 supplies hydraulic pressure for parking brake and emergency braking of inboard brakes.<span class=\"redactor-invisible-space\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\" data-verified=\"redactor\">​<br><br>During RAT deployment, aft accumulator along with forward accumulator, supply hydraulic pressure to flight controls.<br>Aft accumulator is identical to the forward accumulator.​</span><br>",
+                "_graphic": {
+                    "src": "course/en/images/G7_29_Sys3ComponentLoca_01_B.png"
+                }
+            },
+            {
+                "id": 6,
+                "title": "Priority Valve​",
+                "body": "<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​A priority valve ensures that hydraulic system no. 3&nbsp;pressure is always available to the flight controls by stopping hydraulic flow to the landing gear retract actuators.<span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\">​</span><br></span>",
+                "_graphic": {
+                    "src": "course/en/images/G7_29_CompDescription_02_C.png"
+                }
+            }
+        ],
+        "_feedback": {
+            "correct": "Correct",
+            "_incorrect": {
+                "notFinal": "Incorrect, try again",
+                "final": "Incorrect"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Partially correct, try again",
+                "final": "Partially correct"
+            },
+            "_default": {
+                "title": "asdf",
+                "body": "asdfsdf"
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": "Select here to submit  your answer."
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "23a12ed2496b271611486ee367fff765_text_left",
+        "_parentId": "23a12ed2496b271611486ee367fff765",
+        "_type": "component",
+        "_classes": "",
+        "_component": "text",
+        "_layout": "left",
+        "body": "<strong data-redactor-tag=\"strong\" data-verified=\"redactor\">Firewall Hydraulic Shutoff Valves</strong><span class=\"redactor-invisible-space\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-class=\"redactor-invisible-space\"><strong data-redactor-tag=\"strong\" data-verified=\"redactor\">​</strong></span><br><br>​​The firewall hydraulic shutoff valves in hydraulic system no. 1 and no. 2 are normally open to allow hydraulic fluid to the EDPs. <br><br>​​The valve closes automatically when high temperature is detected by the reservoir temperature switch. During an engine fire, the valve is closed by the flight crew using the fire PBA. <br><br>​​The L HYD SOV and R HYD SOV switches on the hydraulic control panel can be used to close the firewall hydraulic shutoff valve during maintenance.<br> ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "58ef80b55caab2da4db92915",
+        "_parentId": "23a12ed2496b271611486ee367fff765",
+        "_type": "component",
+        "_classes": "",
+        "_component": "graphic",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/G7_29_Operation_02.png",
+            "medium": "course/en/images/G7_29_Operation_02.png",
+            "small": "course/en/images/G7_29_Operation_02.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+]

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-579717180" name="G7_29_Operation_01" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge (V1.DW.Edge)]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="transparent.png" width="1200" height="720" />
+
+  <require type="other" src="G7_29_Operation_01.html" />
+  <require type="other" src="images/callout.svg" />
+  <require type="other" src="images/Close2.svg" />
+  <require type="other" src="images/graphic.svg" />
+  <require type="other" src="images/graphic_2.svg" />
+  <require type="other" src="images/HL.svg" />
+  <require type="other" src="images/Legend.svg" />
+  <require type="other" src="images/Legend_Label22.svg" />
+  <require type="other" src="images/Open2.svg" />
+  <require type="other" src="course/en/animation/G7_29_Overview_01/Assets/images/Text.svg" />
+  <require type="other" src="styles/digitalbusStyles.css" />
+  <require type="other" src="styles/digitalbusStyles2.css" />
+  <require type="other" src="styles/graphicStyles.css" />
+  <require type="other" src="styles/shapeSymbols.css" />
+  <require type="other" src="styles/textStyling.css" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.eot" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.svg" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.ttf" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.woff" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.woff2" />
+
+  <require type="javascript" src="G7_29_Operation_01_edge.js" />
+  <require type="javascript" src="edge_includes/edge.6.0.0.min.js" />
+  <require type="javascript" src="js/jquery-2.0.3.min.js" />
+  <require type="javascript" src="js/jquery-ui-1.10.4.min.js" />
+  <require type="javascript" src="js/jquery.ui.touch-punch.min.js" />
+
+  <require type="image" src="transparent.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+  <require type="folder" src="js" />
+  <require type="folder" src="styles" />
+  <require type="folder" src="styles/fonts" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-579717180"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="1200" hidden="true"/>
+    <property name="default-height" defaultValue="720" hidden="true"/>
+    <property name="resizable" defaultValue="true" hidden="true"/>				
+		<property name="centering" defaultValue="horizontal" hidden="true"/>				
+		<property name="scaling" defaultValue="both" hidden="true"/>
+    <property name="html-page" defaultValue="G7_29_Operation_01.html" hidden="true"/>
+  </properties>
+
+</widget>

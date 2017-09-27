@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>AnnotatorDemoCordovaApp</title> 
+        <script type="text/javascript">
+            window.ISCOOKIELMS = false;
+        </script>
+        <script src="offline_API_wrapper.js" type="text/javascript" language="javascript"></script>
+    <!--
+        Personnalisez la stratégie de sécurité de contenu dans la balise meta ci-dessous selon vos besoins. 
+        Ajoutez 'unsafe-inline' à default-src pour activer JavaScript directement dans les lignes.
+        Pour obtenir des détails, consultez http://go.microsoft.com/fwlink/?LinkID=617521
+        -->
+                <!-- provide proper security here
+            https://stackoverflow.com/questions/30280370/how-does-content-security-policy-work
+                       
+        <meta http-equiv="Content-Security-Policy" content=" 
+          default-src 'self' data: gap: ws:* 'unsafe-inline' 'unsafe-eval' https://hypothes.is/ https://cdn.hypothes.is https://*.hypothes.is/
+          font-src 'self' fonts.gstatic.com ssl.gstatic.com;
+          connect-src ws:*
+          img-src 'self' data: gap:; 
+          media-src * blob:; 
+          script-src 'self' www.google-analytics.com;
+          child-src 'unsafe-eval' https://cdn.hypothes.is/
+          style-src 'self' 'unsafe-inline' http://fonts.googleapis.com
+          frame-src 'self' https://hypothes.is/ https://cdn.hypothes.is/ https://*.hypothes.is/"
+        >
+        --> 
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+                                                            
+        <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">       
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="adapt/css/adapt.css" type="text/css" rel="stylesheet" />
+        <script src="libraries/modernizr.js"></script>
+        <script src="adapt/js/scriptLoader.js"></script>
+
+        <!-- remove following libs and uncomment line 37 in scripLoader to load batAnnotorWidget component -->
+        <script src="libraries/zwibbler-demo.js"></script>
+        <script src="libraries/canvg.js"></script>
+        <script src="libraries/domtoimage.js"></script>
+        <script src="libraries/html2canvas.js"></script>
+        <script src="libraries/annotatorWidget.js"></script>
+        <!-- end remove -->
+
+
+        <script>  
+			window.setTimeout( function() {
+                 annotatorWidget.init();
+
+                 $.getScript('https://hypothes.is/embed.js')
+                    .done( function(script, textStatus) {
+
+                        window.hypothesisConfig = function () {
+                            return {
+                                'openSidebar': false,
+                                'customEvents': (function() {
+                                    // some overrides here
+                                }())
+                            };
+                        };
+                    })
+                    .fail(function() {
+                        console.log('Failed to load hypothesis.is client');
+                    }); 
+            }, 1000); 
+        </script>
+
+        <style>
+           
+            /* ----------- iPad Pro ----------- */
+            /* Portrait and Landscape */
+            @media only screen 
+            and (min-device-width: 1024px) 
+            and (max-device-width: 1366px) 
+            and (-webkit-min-device-pixel-ratio: 2) {
+                * {
+                    -webkit-tap-highlight-color: rgba(0,0,0,0);
+                    -webkit-touch-callout: none;
+                }
+
+                body .navigation .TOC-navigation-icon {
+                    position: absolute;
+                    right: 5px;
+                    top: 13px;
+                }
+
+                #editor,
+               .annotator-frame,
+                html .navigation, 
+                html .bottomnavigation { 
+                    position: sticky; 
+                }
+
+                #editor {
+                    position: sticky;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0
+                }
+            }
+
+            .annotator-frame .annotator-bucket-bar {
+                background: rgba(236, 236, 236, 0.8) !important;
+            }
+
+            #editorCanvas > div:first-child+div,
+            #editorCanvas > div:first-child+div>canvas:first-child {
+                left: 50px !important;
+                overflow: visible !important;
+            }
+
+            #editorCanvas > canvas {
+                top: auto !important;
+                bottom: 0 !important
+            }
+
+            .responsiveIframe-iframe-holder {
+                position: relative
+            }
+
+            .tempContent {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+                background-color: #fff
+            }
+
+            #editor {
+                position: fixed;
+                top: 53px;
+                right: 39px;
+                bottom: 54px;
+                left: 1px;
+                border: 2px solid darkgray;
+                box-shadow:9px 9px 12px -5px #888888;
+                background-color: white;
+                padding: 45px 5px 5px;
+                min-height: auto;
+                z-index: 9999;
+                overflow: hidden;
+                outline: 1px solid white;
+            }
+
+            #editor form {
+                display: none;
+            }
+
+            #editorCanvas {
+                position: absolute;
+                top: 53px;
+                right: 100px;
+                bottom: 2px;
+                left: 2px;
+            }
+
+            .block {
+                margin-bottom: 5px;
+                position: relative;
+            }
+
+            .block-inner {
+                background-color: white;
+                text-transform: none;
+            }
+
+            #editor.loading {
+                background: url('adapt/css/assets/ajax-loader.gif') center center no-repeat white;
+            }
+
+            .editor-btn {
+                border: 1px solid #ddd;
+                padding: 5px;
+                position: absolute;
+                font-size: 2em;
+                background-size: 100% 100%;
+                border-radius: 2px;
+                background-color: white;
+                line-height: 24px;
+                color: #a8a6a6;
+                box-sizing: border-box;
+            }
+
+            .editor-screenshot-btn {
+                right: 90px;
+                top: 3px;
+                font-size: 1.6em;
+            }
+
+            .editor-remove-btn {
+                right: 3px;
+                top: 3px;
+            }
+
+            .editor-link-btn,
+            .editor-clipboard-btn,
+            .editor-download-btn {
+                right: 45px;
+                top: 3px;
+                font-size: 1.6em;
+            }
+
+            .editor-link-btn {
+                top: 3px;
+                padding-top: 7px;
+                padding-bottom: 3px;
+            }
+
+            .editor-clipboard-btn {
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .editor-download-btn {
+                right: 90px;
+                padding-top: 6px;
+                padding-bottom: 4px;
+            }
+
+            .dynamicCommentor {
+                border: 1px solid #ddd;
+                position: absolute;
+                right: 95px;
+                top: 20px;
+                width: 46px;
+                height: 46px;
+                border-radius: 2px;
+                font-size: 2em;
+                text-align: center;
+                color: #adabab;
+            }
+
+            .dynamicCommentor i {
+                padding: 8px;
+            }
+
+            .annotator-frame, .annotator-frame .h-sidebar-iframe, .annotator-frame .annotator-toolbar, .annotator-frame .annotator-bucket-bar {
+                top: 53px;
+            }
+            .annotator-frame .annotator-bucket-bar {
+                bottom: 48px;
+            }
+
+            .annotator-frame {
+                height: auto !important;
+                bottom: 105px;
+            }
+            #parsingCanvas {
+                display: none
+            }
+
+            .narrative-slide-container {
+                overflow: hidden
+            }
+
+            .page .article .block .block-title {
+                width: auto !important;
+                padding-bottom: 18px;
+                padding-right: 36px;
+                display: block;
+                height: 25px;
+            }
+        </style>
+   </head>
+    <body>
+        <div class="app">
+        <h1>Screenshot Annotator demo</h1>
+            <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to device</p>
+            <p class="event received">Device ready</p>
+            </div>
+        </div>
+
+        <button id="accessibility-toggle" class="base button a11y-ignore-focus" role="button"></button>
+        <span id="accessibility-instructions" class="aria-label" role="region" tabindex="0"></span>
+        <div id="wrapper"></div>
+      
+        <script type="text/javascript" src="cordova.js"></script> 
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script> 
+        <script type="text/javascript" src="scripts/index.js"></script> 
+    </body>
+</html>

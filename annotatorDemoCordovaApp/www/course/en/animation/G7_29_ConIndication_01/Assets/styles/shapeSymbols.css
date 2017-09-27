@@ -1,0 +1,121 @@
+
+.triangleTextBold {
+  font-family : Arial !important;
+  font-weight: bold !important;
+  font-size : 16px !important;
+  line-height : 16px !important;
+  color : #000000 !important;
+  text-transform: uppercase !important;
+  top: 14px !important;
+  left: 12px !important;
+}
+
+.circleTextBold {
+  font-family : Arial !important;
+  font-weight: bold !important;
+  font-size : 16px !important;
+  line-height : 16px !important;
+  color : #000000 !important;
+  text-transform: uppercase !important;
+  top: 8px !important;
+  left: 10px !important;
+}
+
+.highlightCircleTextBold {
+  font-family : Arial !important;
+  font-weight: bold !important;
+  font-size : 16px !important;
+  line-height : 16px !important;
+  color : #000000 !important;
+  text-transform: uppercase !important;
+  top: 6px !important;
+  left: 9px !important;
+}
+
+.hexagonTextBold {
+  font-family : Arial !important;
+  font-weight: bold !important;
+  font-size : 16px !important;
+  line-height : 16px !important;
+  color : #000000 !important;
+  text-transform: uppercase !important;
+  top: 1px !important;
+  left: 9px !important;
+}
+
+.highlightCircle {
+	width: 20px !important;
+	height: 20px !important;
+	border: 4px solid #F1AC32 !important;
+	background-color: transparent !important;
+	-moz-border-radius: 20px !important;
+	-webkit-border-radius: 20px !important;
+	border-radius: 20px !important;
+}
+
+.circle {
+	width: 30px !important;
+	height: 30px !important;
+	border: 1px solid #000000 !important;
+	background-color: transparent !important;
+	-moz-border-radius: 20px !important;
+	-webkit-border-radius: 20px !important;
+	border-radius: 20px !important;
+}
+
+.triangle {
+	width: 0 !important;
+	height: 0 !important;
+	background-color: transparent !important;
+	border-left: 17px solid transparent !important;
+	border-right: 17px solid transparent !important;
+	border-bottom: 33px solid #000000 !important;
+}
+.triangle:after {
+	content: "" !important;
+	width: 0 !important;
+	height: 0 !important;
+	background-color: transparent !important;
+	border-left: 15px solid transparent !important;
+	border-right: 15px solid transparent !important;
+	border-bottom: 30px solid #FFFFFF !important;
+	position: absolute !important;
+	top: 2px !important;
+	left: -15px !important;
+}
+
+.hexagon {
+  position: relative !important;
+  width: 26px !important; 
+  height: 18px !important;
+  background-color: #ffffff !important;
+  border-left: solid 1px #000000 !important;
+  border-right: solid 1px #000000 !important;
+  -webkit-transform: rotate(90deg) !important;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "" !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  width: 18px !important;
+  height: 18px !important;
+  -webkit-transform: scaleY(0.5) rotate(-45deg) !important;
+  -ms-transform: scaleY(0.5) rotate(-45deg) !important;
+  transform: scaleY(0.5) rotate(-45deg) !important;
+  background-color: inherit !important;
+  left: 3px !important;
+}
+
+.hexagon:before {
+  top: -10px !important;
+  border-top: solid 2px #000000 !important;
+  border-right: solid 2px #000000 !important;
+}
+
+.hexagon:after {
+  bottom: -10px !important;
+  border-bottom: solid 2px #000000 !important;
+  border-left: solid 2px #000000 !important;
+}

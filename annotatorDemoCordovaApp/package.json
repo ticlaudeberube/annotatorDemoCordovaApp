@@ -1,0 +1,24 @@
+{
+    "name": "annotatorDemoCordovaApp",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "clipboard": "^1.7.1",
+        "com.darktalker.cordova.screenshot": "^0.1.6",
+        "cordova-android": "^5.2.2",
+        "cordova-browser": "^4.1.0",
+        "cordova-ios": "~4.2.0",
+        "cordova-windows": "~4.4.2"
+    },
+    "cordova": {
+        "plugins": {
+            "com.darktalker.cordova.screenshot": {}
+        },
+        "platforms": [
+            "android",
+            "browser",
+            "ios",
+            "windows"
+        ]
+    }
+}

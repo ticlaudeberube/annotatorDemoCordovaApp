@@ -1,0 +1,403 @@
+.boxWhite {
+	background-color: #FFFFFF !important;
+	border-color: #000000 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	box-sizing: border-box !important;
+	margin-left: -1px !important;
+}
+
+.boxGrey {
+	background-color: #E5E5E5 !important;
+	border-color: #000000 !important;
+	border-style: solid !important;
+	border-width: 2px !important;
+	box-sizing: border-box !important;
+}
+
+.boxDark {
+	background-color: #CCCCCC !important;
+	border-color: #000000 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	box-sizing: border-box !important;
+}
+
+.blackLine {
+	border-top: 1px solid #000000 !important;
+	border-bottom: 1px solid #000000 !important;
+	height: 0px !important;
+}
+
+.blackLine-vertical {
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+	width: 0px !important;
+}
+
+.blackLine-thick {
+	border-top: 2px solid #000000 !important;
+	border-bottom: 2px solid #000000 !important;
+	height: 0px !important;
+}
+
+.blackLine-thick-vertical {
+	border-left: 2px solid #000000 !important;
+	border-right: 2px solid #000000 !important;
+	width: 0px !important;
+}
+
+.dashedLine {
+	border-top: 1px dashed #000000 !important;
+	border-bottom: 1px dashed #000000 !important;
+	border-left: 0px dashed #000000 !important;
+	border-right: 0px dashed #000000 !important;
+	height: 0px !important;
+	background-color: transparent !important;
+}
+
+.dashedLine-vertical {
+	border-left: 1px dashed #000000 !important;
+	border-right: 1px dashed #000000 !important;
+	border-top: 0px dashed #000000 !important;
+	border-bottom: 0px dashed #000000 !important;
+	width: 0px !important;
+	background-color: transparent !important;
+}
+
+.arrow {
+  z-index: 10 !important;
+  width: 0px !important;
+  height: 0px !important;
+  position: absolute !important;
+}
+
+.Callout-arrowtail {
+	border: 1px solid #FF0000 !important;
+	height : 0px !important;
+	position: absolute !important;
+}
+
+.Callout-arrowhead {
+	width: 0 !important; 
+	height: 0 !important;
+	border-top: 5px solid transparent !important;
+	border-bottom: 5px solid transparent !important; 
+	
+	border-right: 13px solid #FF0000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+}
+
+.arrowtail {
+	border-top: 1px solid #000000 !important;
+	border-bottom: 1px solid #000000 !important;
+	height : 0px !important;
+}
+
+.arrowtail-thick {
+	border-top: 2px solid #000000 !important;
+	border-bottom: 2px solid #000000 !important;
+	height : 0px !important;
+	margin-top: 1px !important;
+}
+
+.arrowtail-horizontal {
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+	width : 0px !important;
+}
+
+.arrowtail-dimension-horizontal {
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+	width : 0px !important;
+	margin-left: -1px !important;
+}
+
+.arrowtail-horizontal-thick {
+	border-left: 2px solid #000000 !important;
+	border-right: 2px solid #000000 !important;
+	width : 0px !important;
+	margin-left: 1px !important;
+}
+
+.dashed {
+	border-top: 1px dashed #000000 !important;
+	border-bottom: 1px dashed #000000 !important;
+	border-left: 0px dashed #000000 !important;
+	border-right: 0px dashed #000000 !important;
+	height: 0px !important;
+	background-color: transparent !important;
+}
+
+.dashed-thick {
+	border-top: 2px dashed #000000 !important;
+	border-bottom: 2px dashed #000000 !important;
+	border-left: 0px dashed #000000 !important;
+	border-right: 0px dashed #000000 !important;
+	height: 0px !important;
+	background-color: transparent !important;
+	margin-top: 1px !important;
+}
+
+.dashed-horizontal {
+	border-left: 1px dashed #000000 !important;
+	border-right: 1px dashed #000000 !important;
+	border-top: 0px dashed #000000 !important;
+	border-bottom: 0px dashed #000000 !important;
+	width: 0px !important;
+	background-color: transparent !important;
+}
+
+.dashed-horizontal-thick {
+	border-left: 2px dashed #000000 !important;
+	border-right: 2px dashed #000000 !important;
+	border-top: 0px dashed #000000 !important;
+	border-bottom: 0px dashed #000000 !important;
+	width: 0px !important;
+	background-color: transparent !important;
+	margin-left: 1px !important;
+}
+
+.arrow-up {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-left: 5px solid transparent !important;
+	border-right: 5px solid transparent !important;
+	
+	border-bottom: 9px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+}
+
+.arrow-down {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-left: 5px solid transparent !important;
+	border-right: 5px solid transparent !important;
+	
+	border-top: 9px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+}
+
+.arrow-left {
+	width: 0 !important; 
+	height: 0 !important;
+	border-top: 5px solid transparent !important;
+	border-bottom: 5px solid transparent !important; 
+	
+	border-right: 9px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+}
+
+.arrow-right {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-top: 5px solid transparent !important;
+	border-bottom: 5px solid transparent !important; 
+	
+	border-left: 9px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+}
+
+.arrow-up-thick {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-left: 7px solid transparent !important;
+	border-right: 7px solid transparent !important;
+	
+	border-bottom: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	left: -1px !important;
+}
+
+.arrow-down-thick {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-left: 7px solid transparent !important;
+	border-right: 7px solid transparent !important;
+	
+	border-top: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	left: -1px !important;
+}
+
+.arrow-left-thick {
+	width: 0 !important; 
+	height: 0 !important;
+	border-top: 7px solid transparent !important;
+	border-bottom: 7px solid transparent !important; 
+	
+	border-right: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	top: -1px !important;
+}
+
+.arrow-right-thick {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-top: 7px solid transparent !important;
+	border-bottom: 7px solid transparent !important; 
+	
+	border-left: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	top: -1px !important;
+}
+
+.dot { 
+   width: 10px !important;
+   height: 10px !important;
+   background: #000000 !important; 
+   -moz-border-radius: 70px !important; 
+   -webkit-border-radius: 70px !important; 
+   border-radius: 70px !important;
+   position: absolute !important;
+}
+
+.dot-thick { 
+   width: 12px !important;
+   height: 12px !important;
+   background: #000000 !important; 
+   -moz-border-radius: 70px !important; 
+   -webkit-border-radius: 70px !important; 
+   border-radius: 70px !important;
+   position: absolute !important;
+}
+
+.dimension-up {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-left: 3px solid transparent !important;
+	border-right: 3px solid transparent !important;
+	
+	border-bottom: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	left: 1px !important;
+}
+
+.dimension-down {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-left: 3px solid transparent !important;
+	border-right: 3px solid transparent !important;
+	
+	border-top: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	left: 1px !important;
+}
+
+.dimension-left {
+	width: 0 !important; 
+	height: 0 !important;
+	border-top: 3px solid transparent !important;
+	border-bottom: 3px solid transparent !important; 
+	
+	border-right: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	top: 2px !important;
+}
+
+.dimension-right {
+	width: 0 !important; 
+	height: 0 !important; 
+	border-top: 3px solid transparent !important;
+	border-bottom: 3px solid transparent !important; 
+	
+	border-left: 11px solid #000000 !important;
+	background-color: transparent !important;
+	position: absolute !important;
+	top: 2px !important;
+}
+
+.highlight {
+	border: 3px solid #F1AC32 !important;
+	border-radius: 5px !important;
+	background-color: transparent !important;
+}
+.flowLine {
+	height: 8px !important;
+	border-top: 1px solid #000000 !important;
+	border-bottom: 1px solid #000000 !important;
+	position: absolute !important;
+}
+
+.flowLine-vertical {
+	width: 8px !important;
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+	position: absolute !important;
+}
+
+.flowLine-cornerShape {
+	width: 8px !important; 
+	height: 8px !important;
+	border: 1px solid #000000 !important;
+	position: absolute !important;
+}
+.narrow-flowLine {
+	height: 4px !important;
+	border-top: 1px solid #000000 !important;
+	border-bottom: 1px solid #000000 !important;
+	position: absolute !important;
+}
+
+.narrow-flowLine-vertical {
+	width: 4px !important;
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+	position: absolute !important;
+}
+
+.narrow-flowLine-cornerShape {
+	width: 4px !important; 
+	height: 4px !important;
+	border: 1px solid #000000 !important;
+	position: absolute !important;	
+}
+
+.synoptic-flowLine {
+	height: 5px !important;
+	border-top: 1px solid #00FE00 !important;
+	border-bottom: 1px solid #00FE00 !important;
+	position: absolute !important;
+}
+.synoptic-flowLine-vertical {
+	width: 5px !important;
+	border-left: 1px solid #00FE00 !important;
+	border-right: 1px solid #00FE00 !important;
+	position: absolute !important;
+}
+
+.invalid-flowLine {
+	height: 5px !important;
+	background-color: #000000 !important;
+	border-top: 1px solid #FF00FF !important;
+	border-bottom: 1px solid #FF00FF !important;
+	position: absolute !important;
+}
+.invalid-flowLine-vertical {
+	width: 5px !important;
+	background-color: #000000 !important;
+	border-left: 1px solid #FF00FF !important;
+	border-right: 1px solid #FF00FF !important;
+	position: absolute !important;
+}
+
+.invalid-flowLine-cornerShape {
+	width: 5px !important; 
+	height: 5px !important;
+	background-color: #000000 !important;
+	border: 1px solid #FF00FF !important;
+	position: absolute !important;	
+}

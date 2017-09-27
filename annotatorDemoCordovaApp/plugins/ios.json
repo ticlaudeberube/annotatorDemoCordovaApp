@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        },
+        "cordova-plugin-clipboard-x": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        },
+        "com.darktalker.cordova.screenshot": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        },
+        "cordova-plugin-ios-longpress-fix": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        }
+    },
+    "dependent_plugins": {}
+}

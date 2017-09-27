@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "cordova-plugin-console"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "cordova-plugin-whitelist@1.3.2"
+        },
+        "cordova-plugin-clipboard-x": {
+            "PACKAGE_NAME": " cordova-plugin-clipboard-x"
+        },
+        "com.darktalker.cordova.screenshot": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        },
+        "cordova-plugin-ios-longpress-fix": {
+            "PACKAGE_NAME": "io.cordova.screenshotDemo"
+        }
+    },
+    "dependent_plugins": {}
+}
