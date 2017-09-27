@@ -28,7 +28,7 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 		var editorOpenned = false;
 		var isCordova = navigator.userAgent.match(/Cordova/i);
 	
-		function init(defaultParser) {
+		function init() {
 			device = isMobileBrowser() ? 'mobile' : 'desktop';
 			setOrientation();
 	
@@ -49,7 +49,7 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 			// Dom-to-image renders better but works only with desktop
 			// html2canvas has many flaws - need to parse DOM and transform images with canvg
 			// TODO: dom to image leaks - enable automatic Automatic tab discarding n chrome://flags
-			parser = defaultParser ? defaultParser : (device === 'desktop') ? 'dom-to-image' : 'html2canvas';
+			parser = isCordova ? 'screenshot' : (device === 'desktop') ? 'dom-to-image' : 'html2canvas';
 	
 			setScreenGrabber();
 
