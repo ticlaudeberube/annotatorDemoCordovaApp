@@ -615,7 +615,7 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 		}
 	
 		function setScreenGrabber() {
-			var openScreenShotBtn = '<div class="'+getClassNameFromSelector(btnClass)+'" title="Annotate this image"><i class="fa fa-pencil"></i></div>';
+			var openScreenShotBtn = '<div class="'+getClassNameFromSelector(btnClass)+'" title="Annotate this block"><i class="fa fa-pencil"></i></div>';
 			var graphicWidgets = getInnerBlocks();
 	
 			graphicWidgets.each( function () {
