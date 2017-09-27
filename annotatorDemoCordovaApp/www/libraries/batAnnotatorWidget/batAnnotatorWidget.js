@@ -54,21 +54,6 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 			setScreenGrabber();
 
 			window.setTimeout( function() {
-                 $.getScript('https://hypothes.is/embed.js')
-                .done( function(script, textStatus) {
-
-                    window.hypothesisConfig = function () {
-                        return {
-                            'openSidebar': false
-                        };
-                    };			
-                })
-                .fail(function() {
-                    console.log('Failed to load hypothesis.is client');
-                });   
-            }, 1000);
-	
-			window.setTimeout( function() {
 				// move Adapt header outside of wrapper for IOS
 				if (isMobileBrowser()) {
 					var nav = $('.navigation').clone(true);
