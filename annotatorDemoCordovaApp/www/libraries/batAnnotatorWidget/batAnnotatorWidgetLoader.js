@@ -1,5 +1,5 @@
 requirejs.config({
-    baseUrl: 'libraries',
+    baseUrl: 'libraries/batAnnotatorWidget',
     paths: {
         'jquery' : 'jquery.v2'
     },
@@ -25,4 +25,4 @@ requirejs.config({
 });
 
 // Load the main app module to start the app
-requirejs(['batAnnotatorWidget/batAnnotatorWidget']);
+requirejs(['batAnnotatorWidget']);

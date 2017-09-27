@@ -34,12 +34,12 @@
         }
         Modernizr.load([{ 
             load: 'adapt/js/adapt.min.js',
-            //complete: loadWidgets
+            complete: loadWidgets
         }]);
     }
 
     function loadWidgets() {
-        Modernizr.load(['libraries/batAnnotatorWidgetLoader.js']);
+        Modernizr.load(['libraries/batAnnotatorWidget/batAnnotatorWidgetLoader.js', 'libraries/hypothes.is/embed.js']);
     }
 
     //1. Load foundation libraries, json2, consoles, requirejs

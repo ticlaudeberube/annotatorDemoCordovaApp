@@ -37,38 +37,6 @@
         <link href="adapt/css/adapt.css" type="text/css" rel="stylesheet" />
         <script src="libraries/modernizr.js"></script>
         <script src="adapt/js/scriptLoader.js"></script>
-
-        <!-- remove following libs and uncomment line 37 in scripLoader to load batAnnotorWidget component -->
-        <script src="libraries/zwibbler-demo.js"></script>
-        <script src="libraries/canvg.js"></script>
-        <script src="libraries/domtoimage.js"></script>
-        <script src="libraries/html2canvas.js"></script>
-        <script src="libraries/annotatorWidget.js"></script>
-        <!-- end remove -->
-
-
-        <script>  
-			window.setTimeout( function() {
-                 annotatorWidget.init();
-
-                 $.getScript('https://hypothes.is/embed.js')
-                    .done( function(script, textStatus) {
-
-                        window.hypothesisConfig = function () {
-                            return {
-                                'openSidebar': false,
-                                'customEvents': (function() {
-                                    // some overrides here
-                                }())
-                            };
-                        };
-                    })
-                    .fail(function() {
-                        console.log('Failed to load hypothesis.is client');
-                    }); 
-            }, 1000); 
-        </script>
-
         <style>
            
             /* ----------- iPad Pro ----------- */
