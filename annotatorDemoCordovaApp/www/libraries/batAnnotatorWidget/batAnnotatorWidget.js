@@ -247,6 +247,8 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 			
 			var ctx = Zwibbler.create(editorCanvasName, {
 				showToolbar: true,
+				multilineText: true,
+				defaultLineWidth: 0,
 				useTouch : true,
 				defaultZoom: 0.75,
 				pageView: false,
