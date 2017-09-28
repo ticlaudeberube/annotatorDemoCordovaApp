@@ -18,6 +18,12 @@
         var receivedElement = parentElement.querySelector('.received');
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+
+        // Load the main app module to start the app
+        requirejs(['batAnnotatorWidget'], function(App){
+            alert('init');
+            App.init();
+        });
     }
 
     function onPause() {
