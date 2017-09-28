@@ -1,4 +1,4 @@
-define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() {
+define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() {
 	'use strict';
 
 		var parser = null;

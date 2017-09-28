@@ -61,7 +61,7 @@
     <icon height="360" src="res/icons/windows/Wide310x150Logo.scale-240.png" width="744" />
   </platform>
   <platform name="android">
-    <splash density="land-hdpi" src="res/screens/android/screen-hdpi-landscape.png" />
+   <splash density="land-hdpi" src="res/screens/android/screen-hdpi-landscape.png" />
     <splash density="land-ldpi" src="res/screens/android/screen-ldpi-landscape.png" />
     <splash density="land-mdpi" src="res/screens/android/screen-mdpi-landscape.png" />
     <splash density="land-xhdpi" src="res/screens/android/screen-xhdpi-landscape.png" />
