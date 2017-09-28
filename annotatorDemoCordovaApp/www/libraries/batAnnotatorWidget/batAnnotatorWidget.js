@@ -645,7 +645,8 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 			return $(el).find('i.fa-spin').length;
 		}
 
-		init();
-	
+		return { 
+			init: init
+		};
 	})(Zwibbler, html2canvas, domtoimage, canvg);
 });

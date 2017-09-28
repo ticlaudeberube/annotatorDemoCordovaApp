@@ -25,4 +25,6 @@ requirejs.config({
 });
 
 // Load the main app module to start the app
-requirejs(['batAnnotatorWidget']);
+requirejs(['batAnnotatorWidget'], function(App){
+    App.init();
+});
