@@ -1,6 +1,5 @@
 define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() {
 	'use strict';
-	(function (Zwibbler, html2canvas, domtoimage, canvg) {
 
 		var parser = null;
 		var promises = [];
@@ -645,7 +644,7 @@ define(['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() 
 			return $(el).find('i.fa-spin').length;
 		}
 
-		init();
-	
-	})(Zwibbler, html2canvas, domtoimage, canvg);
+		return { 
+			init: init
+		};
 });
