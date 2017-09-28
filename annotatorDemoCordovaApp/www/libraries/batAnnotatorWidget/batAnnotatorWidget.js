@@ -52,14 +52,18 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 	
 			setScreenGrabber();
 
-			window.setTimeout( function() {
-				// move Adapt header outside of wrapper for IOS
-				if (isMobileBrowser()) {
-					var nav = $('.navigation').clone(true);
-					$('body').append(nav);
-					$('.wrapper .navigation').remove();
-				}
-			}, 1000);	
+			$.getScript('https://hypothes.is/embed.js')
+			.done( function(script, textStatus) {
+
+				window.hypothesisConfig = function () {
+					return {
+						'openSidebar': false
+					};
+				};			
+			})
+			.fail(function() {
+				console.log('Failed to load hypothesis.is client');
+			});   
 		}
 		
 		function isMobileBrowser() {
@@ -157,14 +161,24 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 		}
 	
 		function noScroll() {
-	
+			$('html, body').css({
+				position: 'relative', 
+				overflowY: 'scroll',
+				height: '100%'
+			});
+
 			$('body').on('touchmove', function(e) { 
 				e.preventDefault(); 
 			});
 		}
 		
 		function noScrollOff() {
-	
+			$('html, body').css({
+				position: 'static', 
+				overflowY: 'auto',
+				height: 'auto'
+			});
+
 			$('body').off('touchmove');
 	
 			var aTag = $('a[name="currentLocation"]');
@@ -195,7 +209,7 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 				$(btnClass).trigger('editorClosed');
 				$(this).parent().remove();
 				editorOpenned = false;		
-				noScrollOff();			
+				//noScrollOff();			
 			});
 	
 			if (isMobileBrowser()) {
@@ -254,7 +268,7 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 				});
 			});	
 	
-			noScroll();
+			//noScroll();
 		}
 	
 		function openWindow() {

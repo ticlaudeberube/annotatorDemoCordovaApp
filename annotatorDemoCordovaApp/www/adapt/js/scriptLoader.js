@@ -1,4 +1,16 @@
-(function() {
+requirejs.config({
+    baseUrl: 'libraries',
+    paths: {
+        'Modernizr': 'modernizr'
+    },
+    shim: {
+        'Modernizr': {
+            exports: 'Modernizr'
+        }
+    }
+});
+
+requirejs(['Modernizr'], function(Modernizr){
     'use strict';
     //Test for ie8
     var IE = (function() {
@@ -39,7 +51,7 @@
     }
 
     function loadWidgets() {
-        Modernizr.load(['libraries/batAnnotatorWidget/batAnnotatorWidgetLoader.js', 'libraries/hypothes.is/embed.js']);
+        Modernizr.load(['libraries/batAnnotatorWidget/batAnnotatorWidgetLoader.js'/*, 'libraries/hypothes.is/embed.js'*/]);
     }
 
     //1. Load foundation libraries, json2, consoles, requirejs
@@ -50,11 +62,8 @@
         },
         {
             test: window.console === undefined,
-            yep: 'libraries/consoles.js'
-        },
-        {
-            load: 'libraries/require.js',
+            yep: 'libraries/consoles.js',
             complete: loadJQuery
         }
     ]);
-})();
+});
