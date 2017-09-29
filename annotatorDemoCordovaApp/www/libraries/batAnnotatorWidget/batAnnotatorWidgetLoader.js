@@ -19,8 +19,7 @@ requirejs.config({
         'canvg': {
             deps: ['jquery'],
             exports:  'canvg'
-        },
-        
+        }
     }
 });
 
