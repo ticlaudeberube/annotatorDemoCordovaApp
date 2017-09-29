@@ -17,14 +17,12 @@
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
         listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-    
-        // Load the main app module to start the app
-        requirejs(['batAnnotatorWidget'], function(App){
-            alert('init');
-            App.init();
-        });
+        receivedElement.setAttribute('style', 'display:block;');    
+        
+        
+        window.setTimeout(function () {
+            batAnnotatorWidget.init();      
+        }, 1000);
     }
 
     function onPause() {

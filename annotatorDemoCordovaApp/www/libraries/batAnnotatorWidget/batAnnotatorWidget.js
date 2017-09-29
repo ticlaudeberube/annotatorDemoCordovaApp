@@ -1,4 +1,4 @@
-define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage', 'canvg'], function() {
+var batAnnotatorWidget = (function () {
 	'use strict';
 
 		var parser = null;
@@ -50,20 +50,7 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 			// TODO: dom to image leaks - enable automatic Automatic tab discarding n chrome://flags
 			parser = isCordova ? 'screenshot' : (device === 'desktop') ? 'dom-to-image' : 'html2canvas';
 	
-			setScreenGrabber();
-
-			/*$.getScript('https://hypothes.is/embed.js')
-			.done( function(script, textStatus) {
-
-				window.hypothesisConfig = function () {
-					return {
-						'openSidebar': false
-					};
-				};			
-			})
-			.fail(function() {
-				console.log('Failed to load hypothesis.is client');
-			});*/   
+			setScreenGrabber(); 
 		}
 		
 		function isMobileBrowser() {
@@ -657,8 +644,7 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 		function btnIsSpinning(el) {
 			return $(el).find('i.fa-spin').length;
 		}
-
-		return { 
+		return {
 			init: init
-		};
-});
+		}
+	})();
