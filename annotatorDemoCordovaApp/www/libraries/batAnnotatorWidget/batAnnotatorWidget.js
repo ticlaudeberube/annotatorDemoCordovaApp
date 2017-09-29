@@ -54,7 +54,7 @@ var batAnnotatorWidget = (function () {
 		}
 		
 		function isMobileBrowser() {
-			return !isNaN(window.orientation && !isCordova);
+			return !isNaN(window.orientation) && !isCordova;
 		}
 	
 		function setOrientation() {
