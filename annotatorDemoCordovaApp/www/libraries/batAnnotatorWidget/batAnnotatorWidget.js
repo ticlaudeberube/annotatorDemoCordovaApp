@@ -52,7 +52,7 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 	
 			setScreenGrabber();
 
-			$.getScript('https://hypothes.is/embed.js')
+			/*$.getScript('https://hypothes.is/embed.js')
 			.done( function(script, textStatus) {
 
 				window.hypothesisConfig = function () {
@@ -63,7 +63,7 @@ define('batAnnotatorWidget', ['jquery', 'html2canvas', 'Zwibbler', 'domtoimage',
 			})
 			.fail(function() {
 				console.log('Failed to load hypothesis.is client');
-			});   
+			});*/   
 		}
 		
 		function isMobileBrowser() {

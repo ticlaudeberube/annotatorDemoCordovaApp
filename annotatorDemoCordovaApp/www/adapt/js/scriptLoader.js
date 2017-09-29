@@ -51,7 +51,7 @@ requirejs(['Modernizr'], function(Modernizr){
     }
 
     function loadWidgets() {
-        Modernizr.load(['libraries/batAnnotatorWidget/batAnnotatorWidgetLoader.js'/*, 'libraries/hypothes.is/embed.js'*/]);
+        Modernizr.load(['libraries/batAnnotatorWidget/batAnnotatorWidgetLoader.js']);
     }
 
     //1. Load foundation libraries, json2, consoles, requirejs
