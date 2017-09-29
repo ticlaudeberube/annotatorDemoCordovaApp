@@ -21,7 +21,23 @@
         
         
         window.setTimeout(function () {
-            batAnnotatorWidget.init();      
+            batAnnotatorWidget.init();  
+            
+            /*$.getScript('https://hypothes.is/embed.js')
+            .done( function(script, textStatus) {
+
+                window.hypothesisConfig = function () {
+                    return {
+                        'openSidebar': false,
+                        //'sidebarAppUrl': 'http://localhost:3001/libraries/hypothesis/app.html',
+                        //'assetRoot' : 'http://localhost:3001/libraries/hypothesis/'
+                    };
+                };
+            })
+            .fail(function() {
+                alert('Failed to load hypothesis.is client');
+            });*/
+
         }, 1000);
     }
 

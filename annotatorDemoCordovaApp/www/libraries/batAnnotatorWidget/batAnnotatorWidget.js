@@ -23,9 +23,9 @@ var batAnnotatorWidget = (function () {
 		var deviceOrientation = null;
 		var device = null;
 		var btnProcessing = null;
-		var viewPortEasing = isMobileBrowser() ? true : false;
 		var editorOpenned = false;
 		var isCordova = navigator.userAgent.match(/Cordova/i);
+		var viewPortEasing = isMobileBrowser() || isCordova ? true : false;
 	
 		function init() {
 			device = isMobileBrowser() ? 'mobile' : 'desktop';
@@ -54,7 +54,7 @@ var batAnnotatorWidget = (function () {
 		}
 		
 		function isMobileBrowser() {
-			return !isNaN(window.orientation);
+			return !isNaN(window.orientation && !isCordova);
 		}
 	
 		function setOrientation() {
