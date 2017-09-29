@@ -196,7 +196,7 @@ var batAnnotatorWidget = (function () {
 				$(btnClass).trigger('editorClosed');
 				$(this).parent().remove();
 				editorOpenned = false;		
-				//noScrollOff();			
+				noScrollOff();			
 			});
 	
 			if (isMobileBrowser()) {
@@ -255,7 +255,7 @@ var batAnnotatorWidget = (function () {
 				});
 			});	
 	
-			//noScroll();
+			noScroll();
 		}
 	
 		function openWindow() {
